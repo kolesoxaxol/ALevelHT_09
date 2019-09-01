@@ -51,7 +51,7 @@ namespace UniversityLib
             myStaticGroupList.Add(_newGroup);
         }
         public static Group[] GetGroupList()
-        {
+        {// а зачем перегонять тут в массив? что мешает дальше юзать колекцию? 
             return myStaticGroupList.ToArray();
         }
 
